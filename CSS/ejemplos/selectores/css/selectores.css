@@ -1,0 +1,29 @@
+
+/* selector {
+  propiedad:valor;
+  propiedad:valor;
+  ...
+  }
+*/
+
+
+/* selector universal */
+
+* {
+	font-family:Arial;
+}
+
+/* selector de tipo */
+
+p {
+	color: red;
+}
+
+/* selector de clase */
+.importante {
+	text-decoration: underline;
+}
+
+p.importante {
+	font-weight: 600;
+}
