@@ -1,0 +1,21 @@
+
+.contenedor {
+	width: 900px;
+	margin:0 auto;
+}
+
+header {
+	background-color: rgb(230,255,230);
+	height: 70px;
+}
+nav {
+	position:absolute;
+	background-color: rgb(200,200,235);
+	width: 160px;
+}
+
+.contenido {
+	margin-left:160px;
+	min-height: 200px;
+	background-color: rgb(200,155,250);
+}
