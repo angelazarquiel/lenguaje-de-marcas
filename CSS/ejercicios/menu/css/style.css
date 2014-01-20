@@ -1,0 +1,83 @@
+nav {
+	min-width: 45em;
+}
+
+nav ul ul {
+	display: none;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+nav ul {
+	background: #0020C0;  
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.15);
+	color:white;
+	padding: 0 20px;
+	border-radius: 1px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+nav ul:after {
+		content: "";
+		clear: both;
+		display: block;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav > ul > li:hover {
+	background: #000000;
+}
+
+nav > ul > li li:hover {
+	background: rgba(0,0,0,0.8);
+}
+
+
+nav ul li:hover a {
+	color: #FFE060;
+}
+	
+nav ul li a {
+	display: block;
+	padding: 25px 40px;
+	color: #FFFFE0;
+	text-decoration: none;
+}
+
+nav ul ul {
+	background-color: rgba(0,30,220,0.9);
+	border-radius: 1px; padding: 0;
+	position: absolute; top: 100%;
+}
+
+nav ul ul li {
+	float: none; 
+	position: relative;
+}
+
+nav ul ul li a {
+	padding: 15px 40px;
+	color: #fff;
+}
+
+.login {
+  background-color: rgb(255,180,0);
+
+  font-style: italic;
+}
+
+li.login a{
+	color:black;
+}
+
+section.contenido p {
+	font-family:arial, 'sans serif';
+	padding-left: 3em;
+	width:50em;
+}
