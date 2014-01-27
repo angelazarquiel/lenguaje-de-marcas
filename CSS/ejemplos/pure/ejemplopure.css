@@ -1,0 +1,23 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0 0;
+}
+
+header #logo {
+  padding: 0.5em;
+}
+header .pure-menu li a:hover {
+    background-color:darkcyan;
+    border-bottom:1px solid gray;
+    color: #bbb;
+}
+
+#menu {
+    margin-top:0.5em;
+    height:60px;
+}
