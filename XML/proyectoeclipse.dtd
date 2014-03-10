@@ -1,0 +1,17 @@
+<!ELEMENT projectDescription (name, comment, projects, buildSpec, natures,linkedResources?)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT comment (#PCDATA)>
+<!ELEMENT projects (project*)>
+<!ELEMENT project (#PCDATA)>
+<!ELEMENT buildSpec (buildCommand*)>
+<!ELEMENT buildCommand (name, arguments)>
+<!ELEMENT arguments (dictionary?)>
+<!ELEMENT dictionary (key, value)*>
+<!ELEMENT key (#PCDATA)>
+<!ELEMENT value (#PCDATA)>
+<!ELEMENT natures (nature+)>
+<!ELEMENT nature (#PCDATA)>
+<!ELEMENT linkedResources (#PCDATA)>
+
+
+
