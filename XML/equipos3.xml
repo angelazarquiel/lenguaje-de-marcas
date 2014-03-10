@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE liga [
+  <!ELEMENT liga (partido*)>
+  <!ELEMENT partido EMPTY>
+      <!ATTLIST partido visitante CDATA #REQUIRED>
+      <!ATTLIST partido local CDATA #REQUIRED>
+      <!ATTLIST partido resultado NMTOKEN #REQUIRED>
+]>
+
+<liga>
+  <partido resultado="0-1" visitante="Inter de A/C" local="Nottingham Presa"/>
+</liga>

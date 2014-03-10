@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE liga [
+  <!ELEMENT liga (partido*)>
+  <!ELEMENT partido (local,visitante)>
+  <!ELEMENT local (nombre)>
+    <!ATTLIST local goles CDATA #REQUIRED>
+  <!ELEMENT visitante (nombre)>
+    <!ATTLIST visitante goles CDATA #REQUIRED>
+  <!ELEMENT nombre (#PCDATA)>
+]>
+
+<liga>
+  <partido>
+      <local goles="0">
+        <nombre>Nottingham Presa</nombre>
+      </local>
+      <visitante goles="1">
+        <nombre>Inter de Mitente</nombre>
+      </visitante>
+  </partido>
+</liga>
