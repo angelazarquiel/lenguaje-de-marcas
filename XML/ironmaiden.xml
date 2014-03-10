@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE info_grupos SYSTEM "grupo.dtd">
+<info_grupos>
+  <grupo nombre="Iron Maiden" web="http://ironmaiden.com/">
+    <integrante  rol="vocalista" web="http://www.screamforme.com/" tipo="real">
+      <nombre >Bruce</nombre>
+      <apellidos>Dickinson</apellidos>
+    </integrante>
+    <integrante  rol="bajista" web="www.steveharrisbritishlion.com/‎" tipo="real">
+      <nombre >Steve</nombre>
+      <apellidos>Harris</apellidos>
+    </integrante>
+    <integrante  rol="bateria" tipo="real">
+      <nombre >Nicko</nombre>
+      <apellidos>McBrian</apellidos>
+    </integrante>
+    <integrante  rol="bajista" tipo="real">
+      <nombre >Adrian</nombre>
+      <apellidos>Smith</apellidos>
+    </integrante>
+    <integrante  rol="guitarrista teclista" tipo="real">
+      <nombre >Dave</nombre>
+      <apellidos>Murray</apellidos>
+    </integrante>
+    <integrante rol="mascota" tipo="virtual">
+      <nombre>Eddie</nombre>
+    </integrante>
+  </grupo>
+  
+    <grupo nombre="The Beatles" web="http://thebeatles.com/">
+    <integrante  rol="vocalista y bajista">
+      <nombre >Paul</nombre>
+      <apellidos>McCartney</apellidos>
+    </integrante>
+    <integrante  rol="guitarrista" >
+      <nombre >John</nombre>
+      <apellidos>Lennon</apellidos>
+    </integrante>
+    <integrante  rol="bateria">
+      <nombre >Ringo</nombre>
+      <apellidos>Starr</apellidos>
+    </integrante>
+    <integrante  rol="vocalista y guitarrista">
+      <nombre >George</nombre>
+      <apellidos>Harrison</apellidos>
+    </integrante>
+  </grupo>
+</info_grupos>

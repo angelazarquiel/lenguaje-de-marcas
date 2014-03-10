@@ -1,0 +1,19 @@
+<!ELEMENT info_grupos (grupo+)>
+<!ELEMENT grupo (integrante+)>
+<!ELEMENT integrante (nombre,apellidos?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ATTLIST grupo nombre CDATA #REQUIRED >
+<!ATTLIST grupo web CDATA #IMPLIED >
+<!ATTLIST integrante rol NMTOKENS #REQUIRED >
+<!ATTLIST integrante web CDATA #IMPLIED >
+<!ATTLIST integrante tipo (real|virtual) #IMPLIED >
+
+
+
+
+
+
+
+
+
