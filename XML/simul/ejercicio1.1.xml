@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+I. Se está pensando en crear una aplicación que ofrezca información actual de los partidos de futbol en un día determinado. Las necesidades son las siguientes:
+
+El documento guardará datos de varios partidos.
+Cada partido tiene:
+        Un id único.
+        Nombre de la competición
+        Año de la competición.
+        Jornada en su competición.
+        Nombre de equipo local.
+        Nombre de equipo visitante.
+        Bandera del equipo local (enlace).
+        Bandera del equipo visitante (enlace).
+        Fecha, hora y minuto de comienzo del partido.
+        Resultado.
+        Minuto de juego cuando se genera este archivo.
+        Estado (terminado/jugando/aplazado)
+        Canales de retrasmisión (nombre y enlace al logo de cada canal donde se retransmite)
+1-1. Usando únicamente elementos XML, sin atributos. Crea un ejemplo de archivo XML que contenga esta información para el minuto 65 de siguiente partido de ayer: (2pt)
+
+      Champions league de 2013.
+      Jornada: Octavos
+      Barcelona – Milan
+      Inicio del partido: 20:45 12/03/2013
+      Al minuto 65, resultado 1:0
+      Se retransmite en Canal + Liga de Campeones
+
+-->
+<resultados>
+<partido>
+  <id>334566</id>
+  <competicion>
+     <nombre>Champions league</nombre>
+     <año>2013</año>
+  </competicion>
+  <jornada>octavos</jornada>
+  <equipoLocal>
+      <nombre>barcelona</nombre>
+      <bandera>http://www.barsa.cat/bandera.jpg</bandera>  
+      <goles>1</goles>
+  </equipoLocal>
+  <equipoVisitante>
+      <nombre>milan</nombre>
+      <bandera>http://milano.it/banderina.jpg</bandera>  
+      <goles>0</goles>
+  </equipoVisitante>
+  <informacion>
+      <fecha>12/03/2013</fecha>
+      <hora>20:45</hora>
+      <minutoJuego>65</minutoJuego>
+      <enJuego/> <!--...,(enJuego|aplazado|finalizado),..-->
+  </informacion>
+  <retransmision>
+     <canal>
+      <nombre>canal + liga de campeones</nombre>
+      <enlaceLogo>http://www.canalplus.com/logo</enlaceLogo>  
+     </canal>
+  </retransmision>
+</partido>
+</resultados>

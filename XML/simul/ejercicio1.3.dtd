@@ -1,0 +1,20 @@
+<!ELEMENT resultados (partido)+>
+<!ELEMENT partido (competicion, jornada, equipo+, retransmision)>
+<!ATTLIST partido
+          estado (enjuego|aplazado|finalizado) #REQUIRED
+          fecha CDATA #REQUIRED
+          hora CDATA #REQUIRED
+          id ID #REQUIRED
+          minuto CDATA #REQUIRED>
+<!ELEMENT competicion (nombre, año)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT jornada (#PCDATA)>
+<!ELEMENT equipo (nombre, bandera?, goles?)>
+<!ATTLIST equipo
+          condicion (visitante|local) #REQUIRED>
+<!ELEMENT bandera (#PCDATA)>
+<!ELEMENT goles (#PCDATA)>
+<!ELEMENT retransmision (canal*)>
+<!ELEMENT canal (nombre, enlaceLogo?)>
+<!ELEMENT enlaceLogo (#PCDATA)>
