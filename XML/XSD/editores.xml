@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<editores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="editores.xsd">
+  <editor>eclipse</editor>
+  <editor>sublime text</editor>
+  <editor>Notepad++</editor>
+  <usuarios>ab</usuarios>
+</editores>
