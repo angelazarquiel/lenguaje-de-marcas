@@ -1,0 +1,18 @@
+[
+	{
+		"nombre":"Programación",
+		"numero_alumnos": 26,
+		"profesor": "Angel Martinez"
+	}
+	,
+	{
+		"nombre":"BBDD",
+		"numero_alumnos":26,
+		"profesor":"Fernando"
+	}
+	,
+	{
+		"nombre":"Sistemas",
+		"profesor": ["Vicente","JE"]
+	}
+]
