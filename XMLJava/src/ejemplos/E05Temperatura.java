@@ -35,8 +35,6 @@ public class E05Temperatura {
 			System.out.println(
 					"La mínima: " + minima);
 		}
-
-	}
-	
+	}	
 }
 
