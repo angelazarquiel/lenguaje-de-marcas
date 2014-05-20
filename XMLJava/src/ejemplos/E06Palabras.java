@@ -34,7 +34,9 @@ public class E06Palabras {
 		new PrettyXmlSerializer(props).writeToFile(
 			    tagNode, "archivos/palabra.xml", "utf-8");
 		
-		tagNode.evaluateXPath("/html/body/center/font[1]/font/strong/text()");
+		Object[] palabra=tagNode.evaluateXPath("/html/body/center/font[1]/strong");
+		
+		//System.out.println(palabra[0].getText());
 		
 	}
 
